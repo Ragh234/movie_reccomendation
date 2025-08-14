@@ -6,7 +6,7 @@ Frontend built with **Streamlit** — runs completely offline.
 ## 📂 Project Structure
 - `app.py` — Streamlit app frontend
 - `recommender.py` — ML + DSA logic
-- `data/movies.csv` — cleaned dataset
+- `movies.csv` — cleaned dataset
 - `requirements.txt` — Python dependencies
 
 ## 🚀 How to Run
