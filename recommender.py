@@ -4,7 +4,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 import heapq
 
-def load_movies(path="data/movies.csv"):
+def load_movies(path="movies.csv"):
     movies = pd.read_csv(path)
     movies['genres'] = movies['genres'].replace('(no genres listed)', '', regex=True)
     return movies
