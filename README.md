@@ -1,2 +1,15 @@
-# movie_reccomendation
-🎬 Movie Recommendation App using ML, DSA, and Streamlit — runs fully offline.
+# 🎬 Movie Recommendation App
+
+A machine learning-based movie recommendation app built using TF-IDF, cosine similarity, and simple data structures.  
+Frontend built with **Streamlit** — runs completely offline.
+
+## 📂 Project Structure
+- `app.py` — Streamlit app frontend
+- `recommender.py` — ML + DSA logic
+- `data/movies_cleaned.csv` — cleaned dataset
+- `requirements.txt` — Python dependencies
+
+## 🚀 How to Run
+```bash
+pip install -r requirements.txt
+streamlit run app.py
